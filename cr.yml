@@ -1,0 +1,21 @@
+apiVersion: entando.org/v1
+kind: EntandoDeBundle
+metadata:
+  name: extract-bundle
+  namespace: fire
+  labels:
+    plugin: 'true'
+    widget: 'true'
+spec:
+  details:
+    name: extract-bundle
+    description: This is the extract bundle
+    dist-tags:
+      latest: v0.0.1
+    versions:
+      - v0.0.1
+  tags:
+    - version: v0.0.1
+      shasum: 3853aa7c2fb3c313c144b40fbd3986b56315b258
+      integrity: 3853aa7c2fb3c313c144b40fbd3986b56315b258
+      tarball: 'https://github.com/firegloves-bundles/extract-bundle.git'
