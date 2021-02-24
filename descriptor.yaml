@@ -1,5 +1,6 @@
 code: extract-bundle
 description: Bundle exported without analyzing every resource
+bundle-type: system-level
 components:
   widgets:
     - widgets/search_form-descriptor.yaml
