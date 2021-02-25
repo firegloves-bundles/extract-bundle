@@ -6,6 +6,7 @@ metadata:
   labels:
     plugin: 'true'
     widget: 'true'
+    bundle-type: system-level-bundle
 spec:
   details:
     name: extract-bundle
