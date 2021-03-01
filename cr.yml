@@ -12,11 +12,12 @@ spec:
     name: extract-bundle
     description: This is the extract bundle
     dist-tags:
-      latest: v0.0.2
+      latest: v0.0.3
     versions:
       - v0.0.0
       - v0.0.1
       - v0.0.2
+      - v0.0.3
   tags:
     - version: v0.0.0
       shasum: 3853aa7c2fb3c313c144b40fbd3986b56315b258
@@ -27,6 +28,11 @@ spec:
       integrity: 3853aa7c2fb3c313c144b40fbd3986b56315b258
       tarball: 'https://github.com/firegloves-bundles/extract-bundle.git'
     - version: v0.0.2
+      description: 'bundle-type system-level added to the descriptor'
+      shasum: 3853aa7c2fb3c313c144b40fbd3986b56315b258
+      integrity: 3853aa7c2fb3c313c144b40fbd3986b56315b258
+      tarball: 'https://github.com/firegloves-bundles/extract-bundle.git'
+    - version: v0.0.3
       description: 'bundle-type system-level added to the descriptor'
       shasum: 3853aa7c2fb3c313c144b40fbd3986b56315b258
       integrity: 3853aa7c2fb3c313c144b40fbd3986b56315b258
