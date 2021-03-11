@@ -117,8 +117,8 @@ components:
     - contents/nws4-descriptor.yaml
     - contents/nws5-descriptor.yaml
     - contents/tcl6-descriptor.yaml
-  plugins:
-    - plugins/lcorsettientando-xmasbundle-descriptor.yaml
+#  plugins:
+#    - plugins/lcorsettientando-xmasbundle-descriptor.yaml
   categories:
     - categories/categories-descriptor.yaml
   labels:
