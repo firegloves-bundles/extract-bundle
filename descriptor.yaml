@@ -1,6 +1,6 @@
 code: extract-bundle
 description: Bundle exported without analyzing every resource
-bundleType: system-level-bundle
+bundle-type: system-level-bundle
 components:
   widgets:
     - widgets/conference-details-widget-descriptor.yaml
