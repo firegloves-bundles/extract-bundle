@@ -5,7 +5,7 @@ components:
   widgets:
     - widgets/conference-details-widget-descriptor.yaml
     - widgets/conference-form-widget-descriptor.yaml
-    - widget/conference-table-widget-descriptor.yaml
+    - widgets/conference-table-widget-descriptor.yaml
     - widgets/dog-details-widget-descriptor.yaml
     - widgets/dog-form-widget-descriptor.yaml
     - widgets/dog-table-widget-descriptor.yaml
