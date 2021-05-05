@@ -8,7 +8,7 @@ guiCode: |-
 
   <#assign navstrs = [] />
   <@wp.nav var="page">
-    <#assign navstr = ["{"code": "" + page.code + "", "title": "" + page.title + "", "level": "" + page.level + "", "url": ""+ page.url +"", "voidPage": " + page.voidPage?string("true", "false") + "}"]  />
+    <#assign navstr = ["{\"code\": \"" + page.code + "\", \"title\": \"" + page.title + "\", \"level\": \"" + page.level + "\", \"url\": \""+ page.url +"\", \"voidPage\": " + page.voidPage?string("true", "false") + "}"]  />
     <#assign navstrs = navstrs + navstr />
   </@wp.nav>
   <#assign nav_json_string = navstrs?join(", ") />
