@@ -1,4 +1,8 @@
-- code: administrators
-  name: Administrators
-- code: free
-  name: Free Access
+- code: bpm_admin
+  name: Bpm Admin
+- code: bpm_appraiser
+  name: Bpm Appraiser
+- code: bpm_broker
+  name: Bpm Broker
+- code: bpm_manager
+  name: Bpm Manager
